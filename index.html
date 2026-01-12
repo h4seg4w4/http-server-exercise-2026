@@ -4,8 +4,9 @@
 	  <style type="text/css">
 </style>
     <title>HTML</title>
-<link rel="stylesheet" href="css/index.css" />
-  </head>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+ </head>
   <body>
     <h1>Hello HTML</h1>
     <p>
@@ -16,15 +17,6 @@ HTML
     </p>
   </body>
 </html>
-
-<script>
-  function clickHandler(e) {
-    const box = document.getElementById("box");
-    const p = document.createElement("p");
-    p.innerText = "Added by JS";
-    box.appendChild(p);
-  }
-</script>
 <body>
   <button onclick="clickHandler()">JS</button>
   <div id="box"></div>
